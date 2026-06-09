@@ -1,0 +1,8 @@
+[build]
+  command = "echo 'No build needed - static site'"
+  publish = "VS Code/cards"
+
+[[redirects]]
+  from = "/*"
+  to = "/eeveevolutions-tcg-cards.html"
+  status = 200
