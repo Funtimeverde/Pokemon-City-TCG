@@ -37,11 +37,9 @@ PASO 2: Crea un nuevo repositorio:
 PASO 3: Abre PowerShell y ejecuta estos comandos:
 
   cd C:\Users\mathi\OneDrive\Escritorio\GitHub
-  git remote add origin https://github.com/TU_USUARIO/pokemon-cards.git
+  git remote add origin https://github.com/Funtimeverde/pokemon-cards.git
   git branch -M main
   git push -u origin main
-
-(Reemplaza TU_USUARIO con tu nombre de usuario de GitHub)
 
 PASO 4: En GitHub, ve a Settings > Pages
   - En "Source", selecciona "main" branch
@@ -50,7 +48,7 @@ PASO 4: En GitHub, ve a Settings > Pages
 PASO 5: Espera 2-3 minutos
 
 Tu URL será:
-  ✅ https://tu-usuario.github.io/pokemon-cards
+  ✅ https://Funtimeverde.github.io/pokemon-cards
 
 ═══════════════════════════════════════════════════════════════════════════════
 🎮 OPCIÓN 3: VERCEL (Gratis - Muy rápido)
