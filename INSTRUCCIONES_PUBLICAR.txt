@@ -1,0 +1,130 @@
+═══════════════════════════════════════════════════════════════════════════════
+  🌐 GUÍA RÁPIDA: Publicar tu página en Internet (Funciona en Móviles, TV, Consolas)
+═══════════════════════════════════════════════════════════════════════════════
+
+Tienes 3 opciones. La MÁS RÁPIDA es Netlify (¡Solo 3 pasos! ⚡)
+
+═══════════════════════════════════════════════════════════════════════════════
+🚀 OPCIÓN 1: NETLIFY (Recomendado - MÁS RÁPIDO - Gratis)
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO 1: Ve a https://app.netlify.com/drop
+PASO 2: Arrastra la carpeta "VS Code" (o solo la subcarpeta "cards") 
+PASO 3: ¡Listo! Obtiene una URL pública al instante
+
+Ejemplo de URL que obtendrás:
+  ✅ https://brave-wave-a1b2c3.netlify.app
+
+Esa URL funciona en:
+  ✅ Móviles (iPhone, Android)
+  ✅ Tablets (iPad, etc)
+  ✅ Computadoras (Windows, Mac, Linux)
+  ✅ Consolas (PS5, Xbox Series X)
+  ✅ TV Inteligentes (Samsung, LG, etc)
+  ✅ Navegación con teclado, mando remoto, touch
+
+═══════════════════════════════════════════════════════════════════════════════
+📋 OPCIÓN 2: GITHUB PAGES (Gratis - Intermedio)
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO 1: Crea una cuenta en https://github.com (si no tienes)
+
+PASO 2: Crea un nuevo repositorio:
+  - Ve a https://github.com/new
+  - Dale nombre: "pokemon-cards" (o lo que quieras)
+  - Clic en "Create repository"
+
+PASO 3: Abre PowerShell y ejecuta estos comandos:
+
+  cd C:\Users\mathi\OneDrive\Escritorio\GitHub
+  git remote add origin https://github.com/TU_USUARIO/pokemon-cards.git
+  git branch -M main
+  git push -u origin main
+
+(Reemplaza TU_USUARIO con tu nombre de usuario de GitHub)
+
+PASO 4: En GitHub, ve a Settings > Pages
+  - En "Source", selecciona "main" branch
+  - Guarda
+
+PASO 5: Espera 2-3 minutos
+
+Tu URL será:
+  ✅ https://tu-usuario.github.io/pokemon-cards
+
+═══════════════════════════════════════════════════════════════════════════════
+🎮 OPCIÓN 3: VERCEL (Gratis - Muy rápido)
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO 1: Ve a https://vercel.com/signup
+PASO 2: Regístrate con GitHub
+PASO 3: Conecta el repositorio
+PASO 4: ¡Automáticamente se publica!
+
+Tu URL será:
+  ✅ https://pokemon-cards.vercel.app
+
+═══════════════════════════════════════════════════════════════════════════════
+✅ VERIFICACIÓN - Tu página funciona en TODO si ves esto:
+═══════════════════════════════════════════════════════════════════════════════
+
+Desde MÓVIL:
+  [ ] Puedo hacer clic en las tarjetas (se giran)
+  [ ] Funciona el selector de idioma
+  [ ] Se ve bien sin zoom
+  [ ] Los botones son fáciles de tocar
+
+Desde DESKTOP:
+  [ ] Puedo hacer clic en las tarjetas (se giran)
+  [ ] Puedo navegar con TAB
+  [ ] Presionar ENTER/ESPACIO gira las tarjetas
+  [ ] Se ve la imagen del Pokémon
+
+Desde TV/CONSOLA:
+  [ ] Con el mando remoto puedo navegar (flechas)
+  [ ] Puedo girar tarjetas (botón A/Enter)
+  [ ] Los botones tienen foco visible (contorno blanco)
+  [ ] Se ve la UI grande y legible
+
+═══════════════════════════════════════════════════════════════════════════════
+🎯 MI RECOMENDACIÓN
+═══════════════════════════════════════════════════════════════════════════════
+
+Si quieres algo AHORA MISMO:
+  👉 Usa NETLIFY (opción 1) - Solo 1 minuto
+
+Si quieres algo profesional y permanente:
+  👉 Usa GITHUB PAGES (opción 2) - Mejor para código abierto
+
+Si ya usas GitHub:
+  👉 Usa VERCEL (opción 3) - Deploy automático
+
+═══════════════════════════════════════════════════════════════════════════════
+❓ PREGUNTAS COMUNES
+═══════════════════════════════════════════════════════════════════════════════
+
+P: ¿Funcionará en mi TV Samsung?
+R: Sí, abre el navegador de tu TV y copia la URL
+
+P: ¿Necesito tener la computadora encendida?
+R: No, una vez publicado está en internet 24/7
+
+P: ¿Puedo cambiar el dominio?
+R: Sí, con GitHub Pages y Vercel puedes usar tu propio dominio
+
+P: ¿Funciona con mando remoto?
+R: Sí, navega con flechas y presiona Enter/botón A para girar
+
+P: ¿Las imágenes se cargan bien en todos lados?
+R: Sí, están en el servidor de Pokémon API
+
+═══════════════════════════════════════════════════════════════════════════════
+📞 PRÓXIMOS PASOS
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Elige una opción arriba
+2. Sigue los pasos
+3. Envía la URL a otros para que vean tu proyecto
+4. ¡Disfruta! 🎉
+
+═══════════════════════════════════════════════════════════════════════════════
