@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
 } from '@remix-run/react';
 import { Analytics } from '@vercel/analytics/remix';
+import { SpeedInsights } from '@vercel/speed-insights/remix';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       </head>
       <body>
         <Analytics />
+        <SpeedInsights />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
