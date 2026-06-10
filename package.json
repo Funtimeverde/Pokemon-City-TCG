@@ -1,0 +1,19 @@
+{
+  "name": "github-project",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "dev": "remix dev",
+    "build": "remix build",
+    "vercel-build": "remix build",
+    "start": "remix-serve build",
+    "install:analytics": "npm install @vercel/analytics",
+    "deploy": "npx vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.0.0"
+  }
+}
