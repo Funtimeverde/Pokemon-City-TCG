@@ -9,5 +9,10 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/" }
-  ]
+  ],
+  "analytics": {
+    "scriptSrc": "/_vercel/analytics/script.js",
+    "eventEndpoint": "/_vercel/analytics/event",
+    "viewEndpoint": "/_vercel/analytics/view"
+  }
 }
